@@ -5,7 +5,7 @@ import random
 x = 1
 cont = True
 while cont:
-    ok = input("Ready for next turn? (y/n) ")
+    ok = input("Next turn? (y/n) ")
     print()
     if ok == "y":
         COLOURS = ("Red", "Yellow", "Green", "Blue")
